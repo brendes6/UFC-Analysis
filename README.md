@@ -4,9 +4,9 @@
 The **UFC Fighter Analysis Dashboard** is a project that explores trends and insights in UFC fight data. By combining Python, MySQL and Tableau, this project makes it easy to dive into fighter stats, fight outcomes, and weight-class trends.
 
 ## Features
--Data Cleaning, Loading, and Querying: Python scripts to clean raw CSV data, load it into a MySQL database, and then query it for insight.
--Interactive Visualizations: Tableau dashboards to explore trends like KO rates in title vs non-title bouts and more.
--Jupyter Notebook Analysis: A notebook tying everything together with additional analysis and visualizations.
+- Data Cleaning, Loading, and Querying: Python scripts to clean raw CSV data, load it into a MySQL database, and then query it for insight.
+- Interactive Visualizations: Tableau dashboards to explore trends like KO rates in title vs non-title bouts and more.
+- Jupyter Notebook Analysis: A notebook tying everything together with additional analysis and visualizations.
 
 
 ## Requirements
