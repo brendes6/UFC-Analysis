@@ -3,7 +3,11 @@ import mysql.connector as sql
 
 df = pd.read_csv("../Data/ufc-cleaned.csv")
 
-connection = sql.connect(host="localhost", user="root", password="Daisydog1200$", 
+# Fill in with your mysql user/password
+my_user = ""
+my_password = ""
+
+connection = sql.connect(host="localhost", user=my_user, password=my_password, 
                          database="ufc_matchup_database", connection_timeout=300)
 cursor = connection.cursor()
 
